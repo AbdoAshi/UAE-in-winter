@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="universitystyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3b1384a103.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="about-header">
+        <nav>
+            <a href=""><img src="uni-img/borg.jpg" alt=""></a>
+            <div class="nav-link" id="navLink">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="ourcourses.html">Famous Places</a></li>
+                    <li><a href="blogs.html">All 7 Emirates</a></li>
+                    <li><a href="contact.html">CONTATUS</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text">
+            <h1>ABOUT US</h1>
+        </div>
+    </section>
+
+    <section class="info">
+        <div class="row">
+            <div class="info-heading info-about">
+            <h1>I Made The Future Easy</h1>
+            <p>My name Abdelrhman. I am from EYGPT and now i am in UAE
+                I'm student in grade 6 i have 11 years old.when i have 10
+                years my frind speck to me about proggraming and i like proggraming
+                So I learned it. i learn HTML and CSS and now i am a programing  Lorem
+                ipsum dolor, sit amet consectetur adipisicing elit. Dolorem adipisci consequatur
+                aspernatur aliquam, dolore officiis eius deserunt harum deleniti molestias cupiditate.</p>
+            <a href="" class="btn">MORE DETAILS</a>
+        </div>
+        <div class="info-heading">
+            <img src="uni-img/about.jpg" alt="">
+        </div>
+        </div>
+    </section>
+   
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error officia hic sapiente quod. Tempore, natus! Libero distinctio minima quidem voluptas iure,<br> laudantium unde sit aspernatur, cumque eaque sequi obcaecati at.</P>
+        <div class="social">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-youtube"></i>
+        </div>
+        <p>Made By Abdelrhman Ahmed <i class="fa fa-heart-o" style="color: red;"></i> Thank You</p>
+
+    </section>
+
+
+
+    <script>
+        var navLink = document.getElementById("navLink");
+        function hidemenu(){
+            navLink.style.right="-200px"
+        }
+        function showmenu(){
+            navLink.style.right="0px"
+        }
+    </script>
+</body>
+</html>

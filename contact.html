@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="universitystyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3b1384a103.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="about-header">
+        <nav>
+            <a href=""><img src="uni-img/uaeflag_emiratosarabesunido_6363.png" alt=""></a>
+            <div class="nav-link" id="navLink">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="ourcourses.html">Famous Places</a></li>
+                    <li><a href="blogs.html">All 7 Emirates</a></li>
+                    <li><a href="contact.html">CONTATUS</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text">
+            <h1>Contact Us</h1>
+        </div>
+    </section>
+    <section class="contactus">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.0139323021353!2d55.50556291441229!3d25.404344229500655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef5f7e9fac58a0f%3A0x28dec7bcb2e6351c!2sGarden%20City%2C%20Ajman%20-%20Block%20%237%2C%20Near%20Etisalat%20Contact%20Center%20-%20184%20Sheikh%20Ammar%20Bin%20Humaid%20St%20-%20Al%20Hamidiya%201%20-%20Ajman!5e0!3m2!1sen!2sae!4v1673816545208!5m2!1sen!2sae" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="contactus2">
+        <div class="row">
+            <div class="information contact-icon">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span><h5>algeesh st, behind uae air company</h5></span>
+                    <span><p>uae, dakahlya, mansoura</p></span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span><h5>0 58 645 7797</h5></span>
+                    <span><p>Monday To Saturday, 10AM TO 6PM</p></span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span><h5>abdo-ahmed@gmail.com</h5></span>
+                    <span><p>Email Us To Help You</p></span>
+                </div>
+            </div>
+
+        </div>
+        <div class="comment-blogs information">
+            <h3>Write Your Comment</h3>
+            <form class="comment">
+                <input type="text" placeholder="Enter Your Name">
+                <input type="email" placeholder="Enter Your Email">
+                <textarea rows="5"></textarea>
+                <button class="btn">Post Comment</button>
+            </form>
+          </div>
+        </div>   
+    </section>
+
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error officia hic sapiente quod. Tempore, natus! Libero distinctio minima quidem voluptas iure,<br> laudantium unde sit aspernatur, cumque eaque sequi obcaecati at.</P>
+        <div class="social">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-youtube"></i>
+        </div>
+        <p>Made By Abdelrhman Ahmed<i class="fa fa-heart-o" style="color: red;"></i> Thank You</p>
+
+    </section>
+
+
+
+    <script>
+        var navLink = document.getElementById("navLink");
+        function hidemenu(){
+            navLink.style.right="-200px"
+        }
+        function showmenu(){
+            navLink.style.right="0px"
+        }
+    </script>
+</body>
+</html>

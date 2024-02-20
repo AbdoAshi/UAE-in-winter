@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="universitystyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3b1384a103.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="about-header">
+        <nav>
+            <a href=""><img src="uni-img/uaeflag_emiratosarabesunido_6363.png" alt=""></a>
+            <div class="nav-link" id="navLink">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="ourcourses.html">Famous Places</a></li>
+                    <li><a href="blogs.html">All 7 Emirates</a></li>
+                    <li><a href="contact.html">CONTATUS</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text">
+            <h1>I will tell you about the all 7 Emirates</h1>
+        </div>
+    </section>
+    <section class="blogs">
+        <div class="row">
+            <div class="blog-left">
+                <img src="uni-img/download.jpg" alt="">
+                <h2>The good winter in UAE</h2>
+                <p>The UAE has an arid desert climate with only two main seasons, winter and summer separated by
+                     two transitional periods, respectively. The winter season (December to March) has a mean<br>
+                     temperature ranging from 16.4°C to 24°C. The first transitional period (April to May) is
+                     distinguished by variability and rapid change in weather. Temperatures start to increase <br>
+                     gradually over most regions during this period. The mean temperature during this season 
+                     ranges from 26°C to 33.5°C. The summer season (June to September) is characterized by extremely<br>
+                      high temperature which can be expected to climb up to 50°C, especially over the southern parts.
+                       Mean temperature during this season ranges from 32°C to 37.2°C. Summer rainfalls tend to be lower,<br>
+                        particularly along the coastal areas, away from the mountains. The second transitional period.
+                         (October to November) has a mean temperature ranging from 24°C to 30°C. Rainfall is sparse and<br>
+                          inconsistent in the UAE. The country averages between 140 – 200 mm of rainfall per year, with 
+                          some mountainous areas experiencing up to 350 mm/year. The UAE is also prone to occasional, <br>
+                          violent dust storms, locally known as shamal winds.</p>
+
+                <div class="comment-blogs">
+                    <h3>Write Your Comment</h3>
+                    <form class="comment">
+                        <input type="text" placeholder="Enter Your Name">
+                        <input type="email" placeholder="Enter Your Email">
+                        <textarea rows="5"></textarea>
+                        <button class="btn">Post Comment</button>
+                    </form>
+                </div>
+
+            </div>
+            <div class="blog-right">
+                <h3>All Emirates</h3>
+                <div>
+                    <span>Dubai</span>
+                    <span>100%</span>
+                </div>
+                <div>
+                    <span>Abo Dubai</span>
+                    <span>100%</span>
+                </div>
+                <div>
+                    <span>AL Ain</span>
+                    <span>95%</span>
+                </div>
+                <div>
+                    <span>Al sharja</span>
+                    <span>80%</span>
+                </div>
+                <div>
+                    <span>Ajman</span>
+                    <span>70%</span>
+                </div>
+                <div>
+                    <span>Ras Al kimah</span>
+                    <span>90%</span>
+                </div>
+                <div>
+                    <span>Om Alcwyn</span>
+                    <span>30%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+   
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error officia hic sapiente quod. Tempore, natus! Libero distinctio minima quidem voluptas iure,<br> laudantium unde sit aspernatur, cumque eaque sequi obcaecati at.</P>
+        <div class="social">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-youtube"></i>
+        </div>
+        <p>Made By Abdelrhman Ahmed <i class="fa fa-heart-o" style="color: red;"></i> Thank You</p>
+
+    </section>
+
+
+
+    <script>
+        var navLink = document.getElementById("navLink");
+        function hidemenu(){
+            navLink.style.right="-200px"
+        }
+        function showmenu(){
+            navLink.style.right="0px"
+        }
+    </script>
+</body>
+</html>
